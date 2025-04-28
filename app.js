@@ -52,7 +52,7 @@ const enablebtns = () => {
 };
 const showWinner = (winner) => {
   console.log("Winner is found");
-  msg.innerText = "Congratulations !! Winner is ${winner}";
+  msg.innerText = `Congratulations !! Winner is ${winner}`;
   msg_container.classList.remove("hide");
   disablebtns();
 };
